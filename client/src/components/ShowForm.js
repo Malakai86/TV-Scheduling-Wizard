@@ -1,4 +1,5 @@
 import React from 'react';
+import '../containers/Showcontainer.css';
 
 
   const ShowForm = (props) => {
@@ -43,9 +44,9 @@ import React from 'react';
   }
 
   return (
-    <div>
+    <div className="show-form-background">
     <p>Filter by day and time: </p>
-    <label>Day: </label>
+    <label >Day: </label>
     <select id="day-selector" onChange={handleDayChange} defaultValue="default">
       <option disabled value="default">Choose a Day...</option>
       {optionsDays}

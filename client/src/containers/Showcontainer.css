@@ -4,6 +4,10 @@
   grid-template-columns: 2fr 5fr 3fr;
 }
 
+.main-page {
+  font-family: Courier;
+}
+
 .logo {
   grid-column: 1/4;
   height: 20rem;
@@ -19,15 +23,15 @@
 }
 
 .show-form {
-  border-right: 1px solid black;
-  background-color: lightblue;
+  background-color: grey;
+  border-top: 4px solid grey;
 }
 
 
 
 .show {
   align-items: center;
-  background-color: lightgreen;
+  background-color: #d3d3d3;
   border-radius: 10px;
   border: 1px solid black;
   padding: 10px;
@@ -40,32 +44,52 @@
 }
 
 .show-list {
-    border-right: 1px solid black;
+    border: 4px solid grey;
+    background-color: white;
+}
+
+.white-h1 {
+  color: white;
+}
+
+.show-list-h1 {
+  border-bottom: 1px solid lightgrey;
+  margin: 30px;
+}
+
+.summary-text {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  border: 3px solid grey;
 }
 
 h1 {
   font-size: 40px;
 }
 
+.show-form-background {
+  background-color: #d0cfcd;
+}
 
+.schedule-list {
+  background-color: #b8b6b4;
+  border-top: 3px solid grey;
+}
 
 
 .show-images {
   border: 1px solid black;
 }
 
-.footer {
-  grid-column: 1/4;
-  padding: 100px;
-  background-color: blue;
-}
+
 
 .schedule {
   grid-column: 1/4;
-  background-color: lightgreen;
+  background-color: #dcdcdc;
   padding: 10px;
   margin: 10px;
-  border: 1px solid black;
+  border: 3px solid lightgrey;
   border-radius: 10px;
 }
 

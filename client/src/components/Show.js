@@ -10,7 +10,7 @@ const Show = ({show, onShowAdded}) => {
     <h3>{show.schedule.days.map((day) => {return `${day}`})}  {show.schedule.time} </h3>
     <h3>{show.network?.name}</h3>
     <img className="show-images" src={show.image.medium} alt=""/>
-    <p>{summaryEdited}</p>
+    <p className="summary-text">{summaryEdited}</p>
     <p><a href={show.url} target='_blank'>More Information</a></p>
 
     <button onClick={() => onShowAdded(show)}>Add to Schedule</button>

@@ -1,4 +1,6 @@
 import React from 'react';
+import '../containers/Showcontainer.css';
+
 
 const ScheduleItem = ({scheduleItem, onScheduleDelete, clashMessage}) => {
   return(
