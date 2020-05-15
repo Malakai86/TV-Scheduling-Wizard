@@ -23,8 +23,8 @@
 }
 
 .show-form {
-  background-color: grey;
-  border-top: 4px solid grey;
+  background-color: #999DA0;
+  border-top: 50px solid grey;
 }
 
 
@@ -44,8 +44,8 @@
 }
 
 .show-list {
-    border: 4px solid grey;
-    background-color: white;
+    border-top: 50px solid grey;
+    background-color: black;
 }
 
 .white-h1 {
@@ -53,7 +53,8 @@
 }
 
 .show-list-h1 {
-  border-bottom: 1px solid lightgrey;
+  border-bottom: 1px solid white;
+  color: white;
   margin: 30px;
 }
 
@@ -74,12 +75,12 @@ h1 {
 
 .schedule-list {
   background-color: #b8b6b4;
-  border-top: 3px solid grey;
+  border-top: 50px solid grey;
 }
 
 
 .show-images {
-  border: 1px solid black;
+  border: 6px solid black;
 }
 
 
